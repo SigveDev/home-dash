@@ -17,7 +17,7 @@ interface SpotifyAuthState {
 const SpotifyAuthContext = createContext<SpotifyAuthState | undefined>(undefined);
 
 const CLIENT_ID = import.meta.env.VITE_SPOTIFY_CLIENT_ID;
-const REDIRECT_URI = 'http://127.0.0.1:5173/settings';
+const REDIRECT_URI = 'https://home-dash.sigve.dev/settings';
 const SCOPES = [
     'user-read-playback-state',
     'user-modify-playback-state',

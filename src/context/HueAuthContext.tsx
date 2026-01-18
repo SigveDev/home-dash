@@ -17,7 +17,7 @@ const HueAuthContext = createContext<HueAuthState | undefined>(undefined);
 
 const CLIENT_ID = import.meta.env.VITE_HUE_CLIENT_ID;
 const CLIENT_SECRET = import.meta.env.VITE_HUE_CLIENT_SECRET;
-const REDIRECT_URI = 'http://127.0.0.1:5173/settings';
+const REDIRECT_URI = 'https://home-dash.sigve.dev/settings';
 
 // Generate random state for OAuth
 function generateRandomString(length: number): string {
